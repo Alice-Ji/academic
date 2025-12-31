@@ -1,1 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <title>Alice Ji – About Me</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="assets/favicon.png"
+      type="image/png"
+    />
+    <style>
+      .project-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin-bottom: 3rem;
+        align-items: center;
+      }
+      .project-grid img,
+      .project-grid iframe {
+        width: 100%;
+        border-radius: 6px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      }
+      .project-desc h2 {
+        margin-top: 0;
+      }
+      .project-desc p {
+        margin: 0.5rem 0 1rem;
+      }
+      .project-desc a {
+        display: inline-block;
+        margin-top: 0.5rem;
+        font-weight: bold;
+        color: var(--link-color, #0056b3);
+      }
+      .project-desc {
+        text-align: left;
+        font-size: 1.1rem; 
+        line-height: 1.6;
+      }
+      .pub-link {
+        flex: 1;
+        display: flex;
+        align-items: center;
+      }
+      .pub-link a {
+        display: inline-block;
+        background: #2453aa;
+        color: #fff;
+        padding: 6px 16px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: 500;
+        text-align: center;
+        transition: background 0.2s;
+        width: 100%;
+        min-width: 40px;
+      }
+      .pub-link a:hover {
+        background: #193366;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="/">
+        <img
+          src="https://alice-ji.github.io/academic/assets/favicon.png"
+          style="width: 24px; height: 24px;"
+        />
+      </a>
+      <a href="/index.html" class="nav-link active">About</a>
+      <a href="/research.html" class="nav-link">Research</a>
+      <a href="/cv.html" class="nav-link">CV</a>
+      <a href="/media.html" class="nav-link">Media</a>
+      <button id="dark-toggle" class="dark-toggle">🌒 Dark Mode</button>
+    </nav>
 
+    <main>
+      <div class="profile-img-wrap">
+        <img
+          src="https://alice-ji.github.io/academic/assets/avatar.jpg"
+          alt="Alice Ji"
+          class="profile-img"
+        />
+      </div>
+      <h1>Alice Ji</h1>
+
+      <section class="contact-section">
+        <a href="mailto:rji3@illinois.edu" class="contact-email"
+          >rji3@illinois.edu</a
+        >
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/alice-ji-8a4b2a161/"
+            target="_blank"
+          >
+            <img
+              src="https://alice-ji.github.io/academic/assets/LinkedIn.png"
+              alt="LinkedIn"
+              title="LinkedIn"
+            />
+          </a>
+          <a
+            href="https://scholar.google.com/citations?hl=en&user=CVlgqCAAAAAJ"
+            target="_blank"
+          >
+            <img
+              src="https://alice-ji.github.io/academic/assets/GoogleScholarLogo.png"
+              alt="Google Scholar"
+              title="Google Scholar"
+            />
+          </a>
+          <a href="https://orcid.org/0009-0009-3730-8272" target="_blank">
+            <img src="https://alice-ji.github.io/academic/assets/ORCID.png" alt="ORCID"
+            title="ORCID"
+          </a>
+          <a href="https://github.com/Alice-Ji" target="_blank">
+            <img
+              src="https://alice-ji.github.io/academic/assets/github.png"
+              alt="Github"
+              title="Github"
+            />
+          </a>
+          <a href="https://medium.com/@alice-ji" target="_blank">
+            <img
+              src="https://alice-ji.github.io/academic/assets/medium.png"
+              alt="Medium"
+              title="Medium"
+            />
+          </a>
+          <a href="https://madlabresearch.web.illinois.edu/" target="_blank">
+            <img
+              src="https://alice-ji.github.io/academic/assets/madlab.png"
+              alt="MadLab"
+              title="MadLab"
+            />
+          </a>
+        </div>
+      </section>
+
+      <section class="about-section">
+        <p>
+          I am a PhD student in Communication and Media at the 
+          <a href="https://media.illinois.edu/institute-of-communications-research/" target="_blank" rel="noopener">
+          Institute of Communications Research
+          </a>,
+          <a href="https://illinois.edu/" target="_blank" rel="noopener">
+          University of Illinois Urbana–Champaign
+          </a>.
+          </p>          
+
+        <p>
+          My research examines how digital interface design shapes attention, 
+          affect, and persuasion, with a focus on emerging mediated agents 
+          such as influencers and AI-generated personas.
+        </p>
+
+        <p>
+          I draw on media psychology, communication theory, and human–computer 
+          interaction to study how perceptions of human-likeness, corporeality, 
+          and authenticity shape trust, engagement, and behavioral outcomes in 
+          digital environments.
+        </p>
+
+        <h3>
+          Interface Design and Persuasion
+        </h3>
+
+        <p>
+          I study how interface design and platform affordances structure social cognition and persuasion. 
+          My work examines how seemingly small design choices: layout, affordances, and interaction constraints, 
+          shape attention, emotional response, and judgment over time.
+        </p>
+
+        <h3>
+          Mediated Agents and Authenticity
+        </h3>
+
+        <p>
+          A central focus of my research is how people make sense of mediated agents, including influencers and 
+          AI-generated personas. I am particularly interested in mind perception, embodiment, and authenticity, 
+          and how these perceptions shape parasocial relationships, trust, and persuasion outcomes.
+        </p>
+
+        <h3>
+          Methods and Measurement
+        </h3>
+
+        <p>
+          Methodologically, I integrate experimental design with fine-grained behavioral and biometric measures. 
+          I develop custom interactive stimuli (e.g., simulated social media feeds and streaming interfaces) and 
+          pair them with eye-tracking, facial-emotion analysis, and behavioral telemetry to capture 
+          moment-to-moment media effects beyond self-report.
+        </p>
+
+        <h3>
+          Teaching, Mentorship, and Service
+        </h3>
+
+        <p>
+          I have experience teaching undergraduate courses in advertising, media studies, and data literacy, 
+          including serving as Instructor of Record for courses on social media analytics and digital technologies. 
+          I am committed to inclusive, research-informed pedagogy and have completed formal training through 
+          the UIUC Grad Academy for College Teaching.
+        </p>
+        <p>
+          Additionally, I actively contribute to the field through undergraduate research mentorship 
+          and peer review for conferences and journals, including the Journal of Advertising, Health Communication, 
+          and Convergence.
+        </p>
+
+        <blockquote>
+          My work contributes to broader debates about how evolving media forms 
+          reorganize the conditions under which influence operates.
+        </blockquote>
+
+      </section>
+
+      <section class="contact-section">
+        <a href="mailto:rji3@illinois.edu" class="contact-email"
+          >rji3@illinois.edu</a
+        >
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/alice-ji-8a4b2a161/"
+            target="_blank"
+          >
+            <img
+              src="https://alice-ji.github.io/academic/assets/LinkedIn.png"
+              alt="LinkedIn"
+              title="LinkedIn"
+            />
+          </a>
+          <a
+            href="https://scholar.google.com/citations?hl=en&user=CVlgqCAAAAAJ"
+            target="_blank"
+          >
+            <img
+              src="https://alice-ji.github.io/academic/assets/GoogleScholarLogo.png"
+              alt="Google Scholar"
+              title="Google Scholar"
+            />
+          </a>
+          <a href="https://orcid.org/0009-0009-3730-8272" target="_blank">
+            <img
+              src="https://alice-ji.github.io/academic/assets/ORCID.png"
+              alt="ORCID"
+              title="ORCID"
+            />
+          </a>
+          <a href="https://github.com/Alice-Ji" target="_blank">
+            <img
+              src="https://alice-ji.github.io/academic/assets/github.png"
+              alt="Github"
+              title="Github"
+            />
+          </a>
+          <a href="https://medium.com/@alice-ji" target="_blank">
+            <img
+              src="https://alice-ji.github.io/academic/assets/medium.png"
+              alt="Medium"
+              title="Medium"
+            />
+          <a href="https://madlabresearch.web.illinois.edu/" target="_blank">
+            <img
+              src="https://alice-ji.github.io/academic/assets/madlab.png"
+              alt="MadLab"
+              title="MadLab"
+            />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>&copy; 2025 Alice Ji</footer>
+    <script>
+      const btn = document.getElementById("dark-toggle");
+      // On load, restore state
+      if (localStorage.getItem("dark-mode") === "true") {
+        document.body.classList.add("dark-mode");
+        btn.textContent = "☀️ Light Mode";
+      }
+      // Toggle and save state
+      btn.onclick = () => {
+        document.body.classList.toggle("dark-mode");
+        const enabled = document.body.classList.contains("dark-mode");
+        btn.textContent = enabled ? "☀️ Light Mode" : "🌒 Dark Mode";
+        localStorage.setItem("dark-mode", enabled);
+      };
+    </script>
+  </body>
+</html>
