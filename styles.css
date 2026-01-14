@@ -380,6 +380,11 @@ body.dark-mode .card p {
   .project-desc {
     text-align: left !important;
   }
+
+  .research-figure img {
+    max-width: 80%;
+    height: auto;
+  }
 }
 
 body.dark-mode {
