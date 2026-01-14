@@ -225,6 +225,10 @@ footer {
 }
 
 /* card grid */
+.card-grid > .card:only-child {
+  grid-column: 1 / -1;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -237,7 +241,7 @@ footer {
   border-radius: 16px;
   border: 1px solid rgba(0, 0, 0, 0.04);
   padding: 2rem;
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.04);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
@@ -254,8 +258,8 @@ footer {
 
 /* Optional hover affordance */
 .card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-0.5px);
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.08);
 }
 
 /* Mobile */
@@ -263,6 +267,22 @@ footer {
   .card-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Research Diagram */
+.research-figure {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.research-figure img {
+  max-width: 450px;
+  height: auto;
+}
+
+body.dark-mode .research-figure img {
+  filter: invert(1) hue-rotate(180deg);
 }
 
 /* === Dark mode cards === */
