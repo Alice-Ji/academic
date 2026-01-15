@@ -387,10 +387,17 @@ body.dark-mode .card p {
   }
 }
 
+/* Dark mode */
 body.dark-mode {
   background: #16181e;
   color: #e7e9ec;
 }
+
+html.dark-mode,
+body.dark-mode {
+  background: #16181e;
+}
+
 body.dark-mode main {
   background: #232433;
   color: #e7e9ec;
