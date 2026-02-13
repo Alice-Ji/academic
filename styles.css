@@ -182,6 +182,7 @@ footer {
 }
 .pub-citation {
   flex: 10;
+  min-width: 0;
   font-size: 1.08em;
   color: #25253d;
   line-height: 1.5;
